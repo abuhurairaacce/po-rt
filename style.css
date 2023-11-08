@@ -1,0 +1,229 @@
+*{
+    margin: 0;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 150px 0 150px;
+    font-weight: 900;
+   
+
+}
+nav ul{
+    display: flex;
+    align-items: center;
+}
+.top{
+    padding-top: 100px;
+}
+nav ul li{
+    list-style: none;
+    padding-right: 20px;
+    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+.name-color{
+    color: orangered;
+}
+nav h2{
+    font-size: 40px;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.but{
+    color: aliceblue;
+    background-color: orangered;
+    padding: 5px 20px;
+    font-weight: 800;
+    border-radius: 5px;
+    border: 1px solid red;
+}
+.banner{
+    display: flex;
+  align-items: center;
+  margin: 50px 150px 0 150px;
+
+}
+
+.banner h3{
+    color:lightblue;
+    font-weight: 800;
+}
+.banner h1{
+    color:skyblue;
+    font-family: sans-serif;
+    font-size: 50px;
+
+}
+.banner h2{
+    color:orange;
+    font-weight: 900;
+}
+.banner p{
+    color:gray;
+    margin-top: 20px;
+}
+.banner button{
+    margin-top: 20px;
+}
+
+.head-bc{
+    background-color: #FFF3F3;
+    background-image: url('header_bg.png'),url('developer.png');
+    background-repeat: no-repeat;
+    background-position: bottom right,left;
+}
+/* main section start: */
+
+.about{
+    max-width: 1140px;
+    height: 550px;
+    margin: 130px auto;
+    background-color: #FFF3F3;
+    text-align: center;
+    
+}
+.about h1{
+    font-size:40px;
+    font-family: cursive;
+    font-weight: 900;
+    padding: 100px 0 30px 0;
+}
+.about p{
+    color: grey;
+    font-size: 30px;
+    padding:30px;
+
+}
+.center{
+
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.data{
+    color: slategrey;
+    font-size: 20px;
+    padding:0 50px;
+    
+}
+.data2{
+    padding: 0 50px;
+    font-weight: 900;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* my skills css */
+.section-heading{
+    font-size:40px;
+    font-family: cursive;
+    font-weight: 900;
+    text-align: center;
+    margin: 100px 0 30px 0;
+}
+.skill-p{
+    color: gray;
+    font-size: 15px;
+    font-family: sans-serif;
+    max-width: 900px;
+    margin: 20px auto;
+}
+.skill-container{
+    display: flex;
+    max-width: 900px;
+    margin: 50px auto;
+
+}
+.skill-title{
+    font-size: 25px;
+    font-weight: 700;
+    padding-top: 20px;
+}
+.skill-description{
+    font-size: 15px;
+    color: #756575;
+    margin-top: 20px;
+}
+.skill{
+    background-color: #FFFFFF;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0px 6px 50px rgba(0,0,0,0.06) ;
+    
+}
+/* Resume Styles */
+.first-div{
+    display: flex;
+    max-width: 900px;
+    margin: 50px 100px 50px 180px;
+    gap: 200px;
+    height: 200px;
+   
+    }
+.upper-part{
+    border-bottom:2px solid gray ;
+    width: 400px;
+  
+    padding: 0 5px 5px 10px ;
+}
+
+.upper-part h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-bottom: 8px;
+}
+.upper-part h2{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.upper-part h3{
+    font-family: monospace;
+
+}
+.upper-part p{
+    font-family: 'Times New Roman', Times, serif;
+    color: gray;
+    padding-top: 10px;
+}
+.cv-but{
+    display: flex;
+    margin: 15px auto;
+    padding: 10px 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.footer-sec{
+    display: flex;
+    background-color: #FFF8F3;
+    width: 100%;
+    margin: 80px 0 0 0;
+    gap: 150px;
+}
+.foot-div{
+    
+    width: 400px;
+    margin: 50px 0 80px 100px;
+    height: 500px;
+    padding: 50px 10px 20px 20px;
+}
+.foot-div input,textarea{
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    border: none;
+   border-radius: 10px solid pink;
+   background-color: snow;
+   
+}
+.foot-div input{
+    height: 40px;
+    width: 260px;
+}
+.foot-div button{
+    margin-left: 20px;
+}
+.footer-head{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-bottom: 20px;
+}
+.foot-div p{
+    margin-bottom: 30px;
+}
